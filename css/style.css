@@ -1,0 +1,73 @@
+.bording{margin-left: 80px; 
+		 margin-right: 10px}
+
+nav .navbar-brand img{ width: 100%;}
+
+.navbar-nav {margin: auto}
+
+.navbar-expand-lg .navbar-collapse{padding-left: 450px}
+
+.navbar-nav .nav-link{font-weight: 400;
+									  font-size: 20px;
+									  padding: 3px 10px;
+									  color: hsl(273, 4%, 51%);}
+
+.border-secondary {border: 2px solid #fff}
+
+.navbar-nav .nav-link:hover{color: hsl(216, 30%, 68%)}
+
+.header{background-color:#2c2640;
+		  color:hsl(0, 0%, 98%)	
+}
+
+.header .left_section{margin-top: 53px;
+						background-image:url(../images/bg-pattern-intro-left-desktop.svg);
+						background-repeat: no-repeat; 
+					    background-size: cover;}
+
+.header .left_section h1{font-weight: bold; 
+						 font-family: DM+Serif+Display;
+						 font-size: 35px;}
+
+.header .right_section {float: right;
+							background-image:url(../images/bg-pattern-intro-right-desktop.svg);
+							background-repeat: no-repeat; 
+							background-size: cover;
+}
+
+.header .right_section img{width: 75%;
+						   margin-left: 30px;
+						   height: 340px;}
+
+.attribution { font-size: 11px; 
+	text-align: center; }
+    
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width:375px )
+{
+	.bording { margin-left: 10px;
+				margin-right: 5px;}
+	
+	.navbar-expand-lg .navbar-collapse{padding-left: 0;
+										margin-top: 20px;
+										margin-right: -10px;
+										margin-left: -10px;
+		    							height: 480px;
+										background: #2c2640;
+		                                background-image: url(../images/bg-pattern-mobile-nav.svg);
+		                                background-repeat: no-repeat; 
+                                        background-position: right bottom;
+
+	
+	}
+	
+	.navbar-light .navbar-nav .nav-link {padding-top: 20px;
+											color: #fff;
+											text-align: center;}
+	
+	.border-secondary{ margin-top: 15px;
+						width: 80%;
+						margin-left: 30px;
+						padding-bottom: 5px;}
+}
