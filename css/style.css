@@ -18,6 +18,13 @@ nav .navbar-brand img{ width: 100%;}
 .navbar-nav .border-secondary:hover{background: #000;}
 
 .navbar-light .navbar-nav .border-secondary a:hover{ color: #fff}
+ .navbar-toggler.collapsed .close-icon {
+      display: none;
+   }
+
+   .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+      display: inline;
+   }
 
 .border-secondary {border: 2px solid #fff}
 
@@ -134,13 +141,15 @@ hr{margin-top: 50px;}
 	
 	.navbar-expand-lg .navbar-collapse{padding-left: 0;
 										margin-top: 20px;
-										margin-right: -10px;
-										margin-left: -10px;
+										margin-right: 644px;
+										margin-left: -40px;
 		    							height: 480px;
 										background: #2c2640;
 		                                background-image: url(../images/bg-pattern-mobile-nav.svg);
 		                                background-repeat: no-repeat; 
                                         background-position: right bottom;}
+	
+	.navbar-expand-lg .navbar-collapse:active{}
 	
 	.navbar-light .navbar-nav .nav-link {padding-top: 20px;
 											color: #fff;
@@ -159,6 +168,8 @@ hr{margin-top: 50px;}
 	
 	.header .left_section p {text-align: center;}
 	
+	.header .left_section hr{display: none}
+	
 	.header .left_section h1{    font-size: 45px;}
 	
 	.header .right_section{float: left; padding-top: 0}
@@ -170,6 +181,8 @@ hr{margin-top: 50px;}
 	.second_section {text-align: center;
 	   				 margin-top: -50px;
 					 height: 730px;}
+	
+	.second_section hr{margin-left: 135px;}
 	
 	.third_section {margin-left: 0;
                      height: 400px;
